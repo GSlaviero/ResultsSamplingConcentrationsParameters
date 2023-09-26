@@ -4,6 +4,7 @@ Here saved are 2000 randomly chosen values out of 1e+06 sampled sets.
 Saved are the results for the model using automatically assigned convenience kinetic and the specific mechanistic kinetics of the anaerobic metabolic model of E coli. 
 
  The results are stored in .mat files. Following the description of the acronyms: 
+ 
       - SCN = feasible sampled concentrations (iterations x m);
       - DG0 and keq;
       - R = reactions names;
