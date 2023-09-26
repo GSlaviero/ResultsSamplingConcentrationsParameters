@@ -4,6 +4,7 @@ Here saved are 4000 randomly chosen values out of 1e+06 sampled sets.
 Saved are the results for the model using automatically assigned convenience kinetic and the specific mechanistic kinetics of the anaerobic metabolic model of E coli. 
 
 Concentrations were sampled between [0.01 10] umol/gdw
+
 Alphas (=S/km) were sampled between [0.01 100] 
  
  The results are stored in .mat files. Following the description of the acronyms: 
