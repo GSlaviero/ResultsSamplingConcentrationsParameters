@@ -8,14 +8,19 @@ Alphas (=S/km) were sampled between [0.01 100]
  
  The results are stored in .mat files. Following the description of the acronyms: 
  
-      - SCN = feasible sampled concentrations (iterations x m);
-      - DG0 and keq;
-      - R = reactions names;
-      - S = species names;
-      - Fluxes = steady state fluxes;
-      - spl_parameters = all sampled parameters (stable and unstable sets) (iterations x #parameters);
-      - CJ_rec = flux control coefficients (n x n x stable_models);
-      - CS_rec = concentration control coefficients (m x n x stable_models);
-      - E_rec  = elasticity matrices (n x m x stable_models);
-      - eigenvalues_full = all eigenvalues (n x iterations);
-      - MaxRealEigens = value of the maximum real eigenvalue (1 x iterations);
+      - DG0 = gibbs free energy of reaction; 
+      - keq = equilibrium constants; 
+      - Nf  = stoichiometic matrix; 
+      - R   = reactions names;
+      - S   = species names;
+      - sve_cnc    = feasible sampled concentrations (iterations x m);
+      - sve_prm    = all sampled parameters (stable and unstable sets) (iterations x #parameters);
+      - sve_RedJac = Jacobian matrices (m x m x iterations)
+      - sve_MaxRelEig = value of the maximum real eigenvalue (1 x iterations);
+      - sve_CJ     = flux control coefficients (n x n x stable_models);
+      - sve_CS     = concentration control coefficients (m x n x stable_models);
+      - sve_Elas   = elasticity matrices (n x m x stable_models);
+      
+      
+
+
